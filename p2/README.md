@@ -125,16 +125,6 @@ jupyter notebook
 
 Before running the code in the notebook, change the kernel to match the drlnd environment by using the drop-down Kernel menu.
 
-
-
-![42386929-76f671f0-8106-11e8-9376-f17da2ae852e](C:\Users\gleb3\Desktop\42386929-76f671f0-8106-11e8-9376-f17da2ae852e.png)
-
-
-
-
-
-
-
 5. Now you need to install Unity https://unity3d.com/get-unity/download.
 
 6. Finally, you should install Unity Agents 
