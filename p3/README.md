@@ -99,8 +99,8 @@ Before running the code in the notebook, change the kernel to match the drlnd en
 6. Finally, you should install Unity Agents 
 
    pip install unityagents
-
-
+   
+   
 
 # Run the code
 
