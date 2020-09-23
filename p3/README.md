@@ -82,13 +82,9 @@ source activate drlnd
 conda create --name drlnd python=3.6 
 activate drlnd
 
-
-
 3. Create an IPython kernel for the drlnd environment.
 
 python -m ipykernel install --user --name drlnd --display-name "drlnd"
-
-
 
 4. Every time to launch jupyter notebook you should navigate to your environment folder and run the following lines:
 
@@ -96,17 +92,9 @@ activate drlnd
 
 jupyter notebook
 
-
-
 Before running the code in the notebook, change the kernel to match the drlnd environment by using the drop-down Kernel menu.
 
-
-
 ![42386929-76f671f0-8106-11e8-9376-f17da2ae852e](C:\Users\gleb3\Desktop\42386929-76f671f0-8106-11e8-9376-f17da2ae852e.png)
-
-
-
-
 
 
 
