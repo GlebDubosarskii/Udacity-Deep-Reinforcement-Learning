@@ -46,7 +46,7 @@ class Agent(nn.Module):
             action = dist.sample() #generate random action
             
         log_prob=dist.log_prob(action) #calculate action log propability with respect to the density function for each action coordinate
-        log_prob = torch.sum(log_prob, dim=1, keepdim=True) #average probabilities over 4 coordinates
+        log_prob = torch.sum(log_prob, dim=1, keepdim=True) #average probabilities over 2 coordinates
         
         
         return action, log_prob, c
